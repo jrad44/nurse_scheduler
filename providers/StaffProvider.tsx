@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import createContextHook from '@nkzw/create-context-hook';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { StaffMember } from '@/types/staff';
@@ -75,4 +76,4 @@ export const [StaffProvider, useStaff] = createContextHook(() => {
     updateStaffRole,
     updateStaffCertifications,
   };
-});}
+});

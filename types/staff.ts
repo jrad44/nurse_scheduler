@@ -1,5 +1,7 @@
 export type EmploymentType = 'FullTime' | 'PartTime' | 'PerDiem';
 
+export type Role = 'RN' | 'ChargeRN' | 'LVN' | 'Tech' | 'FloatRN' | 'IVNurse' | 'UnitSecretary';
+
 export interface StaffMember {
   id: string;
   name: string;
@@ -20,4 +22,4 @@ export interface StaffAvailability {
   requested: 'Off' | 'PreferOff' | 'PreferWork' | 'Committed';
   hardBlock: boolean;
   preferredUnit?: string;
-}}
+}

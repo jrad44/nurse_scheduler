@@ -1,3 +1,5 @@
+import { StaffMember } from '@/types/staff';
+
 export const mockStaff: StaffMember[] = [
   {
     id: 'RN001',
@@ -126,4 +128,4 @@ export const mockStaff: StaffMember[] = [
     certifications: ['IV Therapy', 'PICC', 'Ultrasound Guided IV'],
     seniority: 3,
   },
-];}
+];

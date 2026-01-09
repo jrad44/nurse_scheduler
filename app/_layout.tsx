@@ -59,4 +59,4 @@ export default function RootLayout() {
       </GestureHandlerRootView>
     </QueryClientProvider>
   );
-}}
+}
