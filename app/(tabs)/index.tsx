@@ -1,3 +1,4 @@
+import { useState, useMemo } from 'react';
 import {
   View,
   Text,
@@ -445,4 +446,4 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     paddingHorizontal: 8,
   },
-});}
+});

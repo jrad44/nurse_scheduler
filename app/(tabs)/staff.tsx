@@ -378,4 +378,4 @@ const styles = StyleSheet.create({
     color: '#8E8E93',
     marginTop: 12,
   },
-});}
+});

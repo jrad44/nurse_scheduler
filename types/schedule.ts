@@ -1,3 +1,5 @@
+export type ShiftType = 'D' | 'E' | 'N';
+
 export interface ShiftAssignment {
   id: string;
   staffId: string;
@@ -84,4 +86,4 @@ export interface WeekendRequirement {
   minWeekendsOff: number;
   maxWeekendsWorked: number;
   fairRotation: boolean;
-}}
+}

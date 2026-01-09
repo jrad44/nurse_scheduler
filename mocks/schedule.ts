@@ -1,4 +1,5 @@
 import { format } from '@/utils/dateUtils';
+import { ShiftAssignment, ShiftConstraint, ScheduleRules } from '@/types/schedule';
 
 const today = new Date();
 const todayStr = format(today, 'yyyy-MM-dd');
@@ -219,4 +220,4 @@ export const defaultRules: ScheduleRules = {
   enforceRoleSpecificRules: true,
   enforceWeekendRequirements: true,
   enforceCertificationRequirements: true,
-};}
+};

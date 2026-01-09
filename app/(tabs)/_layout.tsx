@@ -1,3 +1,4 @@
+import { Tabs } from "expo-router";
 import { Calendar, Users, BarChart3, Settings, Upload } from "lucide-react-native";
 import React from "react";
 
@@ -65,4 +66,4 @@ export default function TabLayout() {
       />
     </Tabs>
   );
-}}
+}
